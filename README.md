@@ -1,1 +1,1 @@
-# Ludufun
+FUN
