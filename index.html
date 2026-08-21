@@ -2,21 +2,7 @@
 :#26304a; --text:#eef1f8;
   }
   * { box-sizing:border-box; margin:0; padding:0; }
-  body {
-    back
-    width:min(92vmin, 640px); aspect-ratio:1;
-    display:grid; grid-template:repeat(15,1fr)/repeat(15,1fr);
-    background:#fff; border-radius:12px; overflow:hidden;
-    box-shadow:0 12px 40px rgba(0,0,0,.5);
-    direction:ltr;
-  }
-  .cell { position:relative; display:flex; align-items:center; justify-content:center; }
-  .cell.path { background:#f2f2f2; border:1px solid #d8d8d8; }
-  .cell.safe-r { background:var(--red); } .cell.safe-g { background:var(--green); }
-  .cell.safe-y { background:var(--yellow); } .cell.safe-b { background:var(--blue); }
-  .cell.base-r { background:var(--red); } .cell.base-g { background:var(--green); }
-  .cell.base-y { background:var(--yellow); } .cell.base-b { background:var(--blue); }
-  .cell.center { background:conic-gradient(var(--red) 0 25%, var(--green) 0 50%, var(--yellow) 0 75%, var(--blue) 0); }
+  body r(--red) 0 25%, var(--green) 0 50%, var(--yellow) 0 75%, var(--blue) 0); }
   .cell.homecol-r { background:var(--red); } .cell.homecol-g { background:var(--green); }
   .cell.homecol-y { background:var(--yellow); } .cell.homecol-b { background:var(--blue); }
   .cell .star { position:absolute; inset:0; display:flex; align-items:center; justify-content:center;
